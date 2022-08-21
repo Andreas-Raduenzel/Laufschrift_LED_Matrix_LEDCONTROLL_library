@@ -1,7 +1,7 @@
 #include "LedControl.h"
 LedControl lc884=LedControl(0,2,1,4);
 //https://wolles-elektronikkiste.de/led-matrix-display-ansteuern
-unsigned long delayTime=300;
+unsigned long delayTime=280;
 
 byte A[8]={B00110000,B01111000,B11001100,B11001100,B11111100,B11001100,B11001100,B00000000}; // A
 byte B[8]={B11111100,B01100110,B01100110,B01111100,B01100110,B01100110,B11111100,B00000000}; // B
